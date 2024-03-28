@@ -1,0 +1,25 @@
+@import 'reset.css';
+@import 'content.css';
+@import 'responsive.css';
+@import 'adaptive.css';
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('font/HelveticaNeueCyr-Roman.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('font/HelveticaNeueCyr-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: medium;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('font/HelveticaNeueCyr-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: bold;
+}

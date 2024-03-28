@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./javascript.js"></script>
+    <title>bild</title>
+</head>
+<body>
+    <div class="custom_cursor"></div>
+    <section class="block_1">
+        <div class="bild"><img src="./images/bild_logo.svg" alt="" class="bild_logo"></div>
+        <div class="_2x2m"><div class="text_metres">2X2M</div></div>
+        <div class="_4x3m"><div class="text_metres">4X3M</div></div>
+        <div class="_2x4m"><div class="text_metres">2X4M</div></div>
+        <div class="ramdash1"></div> <div class="ramdash2"></div> <div class="ramdash3"></div> <div class="ramdash4"></div>
+        <div class="linearrow_1"><img src="images/linearrow.svg" alt="" class="linearrow_img"></div>
+    </section>
+    <section class="block_2">
+        <hr class="line_top"></hr>
+        <div class="black_square_1"></div>
+        <div class="text_top_2">
+            <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div> <div>6</div> <div>7</div> <div>8</div> <div>9</div> 
+            <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div> <div>6</div> <div>7</div> <div>8</div> <div>9</div>
+            <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div> <div>6</div> <div>7</div> <div>8</div> <div>9</div>
+            <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div> <div>6</div> <div>7</div> <div>8</div> <div>9</div>
+        </div>
+        <div class="buttons_2"><button class="start_button" onclick="activ2()"><div class="start_text">Начать</div></button>
+        <button class="end_button" onclick="endPaint()"><div class="end_text">Сбросить</div></button></div><div class="text_left_2">
+            <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div> <div>6</div> <div>7</div> <div>8</div> <div>9</div> 
+            <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div> <div>6</div> <div>7</div> <div>8</div> <div>9</div>
+            <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div> <div>6</div>
+        </div>
+        <div class="black_brick_1"></div> <div class="black_brick_2"></div> <div class="black_brick_3"></div>
+        <div class="black_brick_4"></div> <div class="black_brick_5"></div> <div class="black_brick_6"></div>
+        <div class="black_brick_7"></div> <div class="black_brick_8"></div> <div class="black_brick_9"></div> 
+        <div class="black_brick_10"></div> <div class="black_brick_11"></div> <div class="black_brick_12"></div>
+        <div class="brick_2_1"><img src="images/smallbrick_1.svg" alt=""></div> <div class="brick_2_2"><img src="images/smallbrick_1.svg" alt=""></div>
+         <div class="brick_2_3"><img src="images/smallbrick_1.svg" alt="" style="max-width: 2vw; object-fit: cover;"></div>
+        <table class="paint" id="tablepaint">
+            <tbody>
+                <tr class="up_paint">
+                    <td colspan="61"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr><td colspan="5"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td onmouseover="draw(this)" onmousedown="changeBackGroundCell(this)"></td>
+                    <td colspan="15"></td>
+                    <td colspan="15"></td>
+                </tr>
+                <tr class="down_paint">
+                    <td colspan="61"></td>
+                    <td colspan="5"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="blackpaint"><img src="images/plan_black.svg" id="transparent_img" alt=""></div>
+        <div class="text_down_1">
+        <div class="zag_1">(1) <br>
+            ЧЕРТЕЖ
+        </div>
+        <div class="textblock_2">ПРОСТО НАЧНИ РИСОВАТЬ <br>
+            ПО КВАДРАТИКАМ, <br> А МЫ ВОССОЗДАДИМ <br>
+            ЭТО В РЕАЛЬНОСТИ! <br> </div></div>
+       <div class="textblock_1" id="transparent_text">отрисуй себе <br>
+            здание. как оно <br>
+            будет выглядеть? <br> какого размера? <br>
+            какой план ты для <br>
+            него составишь? <br> решать только <br>
+            тебе. 
+        </div>
+        <hr class="line_bottom"></hr>
+        <div class="right_square"></div>
+    </section>
+    <section class="block_3">
+        <div class="zag_2">(2) <br>
+            ПЛАНИРОВКА
+        </div>
+        <div class="plan_1"><img src="images/plan_1.svg" alt="" class="first_plan"></div>
+        <div class="numberRoom" id="room_1" onmouseover="showImage(0)">1</div>
+        <div class="numberRoom" id="room_2" onmouseover="showImage(1)">2</div>
+        <div class="numberRoom" id="room_3" onmouseover="showImage(2)">3</div>
+        <div class="roomBlock"><div class="imageRoom" id="imageroom1"><img src="images/kvart1.svg" alt="" style="width: 28vw;"></div>
+        <div class="textaboutroom1_1">спальня <br>
+            12 x 11 кв. m.</div>
+        <div class="textaboutroom1_2">кабинет <br>
+            14 x 10 кв. m.</div>
+        <div class="textaboutroom1_3">зал <br>
+            14 x 34 кв. m.</div>
+    </div>
+    <div class="roomBlock"><div class="imageRoom" id="imageroom2"><img src="images/kvart2.svg" alt="" style="width: 28vw;"></div>
+    <div class="textaboutroom2_1">зал <br>
+        14 x 34 кв. m.</div>
+    <div class="textaboutroom2_2">спальня <br>
+        12 x 11 кв. m.</div>
+    <div class="textaboutroom2_3">кабинет <br>
+        14 x 10 кв. m.
+    </div>
+    </div>
+    <div class="roomBlock"><div class="imageRoom" id="imageroom3"><img src="images/kvart_3.svg" alt="" style="width: 28vw;"></div>
+    <div class="textaboutroom3_1">зал <br>
+    14 x 34 кв. m.</div>
+    <div class="textaboutroom3_2">спальня <br>
+    12 x 11 кв. m.</div></div>
+        
+        
+        
+        <div class="text_kvart">планировку мы <br> выполним сами. <br> нажми на комнаты, <br> чтобы посмотреть, <br> как это будет!</div>
+    </section>
+    <section class="block_4">
+        <div class="zag_3">(3) <br>
+            МАТЕРИАЛ
+        </div>
+        <div class="black_brick_13"></div> <div class="black_brick_14"></div> <div class="black_brick_15"></div>
+        <div class="black_brick_16"></div> <div class="black_brick_17"></div> <div class="black_brick_18"></div>
+        <div class="black_brick_19"></div> <div class="black_brick_20"></div> <div class="black_brick_21"></div>
+        <div class="black_brick_22"></div> <div class="black_brick_23"></div> <div class="black_brick_24"></div>
+        <div class="materials" id="materialsJS">
+            <div class="iron">
+                <div class="iron_text"><p>ЖЕЛЕЗО</p></div>
+            </div>
+            <div class="concrete">
+                <div class="concrete_text"><p>БЕТОН</p></div>
+                <img src="images/strel_mat_1.svg" alt="" id="strelmat1">
+                <img src="images/strel_mat_2.svg" alt="" id="strelmat2">
+                <img src="images/strel_mat_3.svg" alt="" id="strelmat3">
+                <img src="images/strel_mat_4.svg" alt="" id="strelmat4">
+                <img src="images/strel_mat_5.svg" alt="" id="strelmat5">
+            </div>
+            <div class="glass">
+                <div class="glass_text"><p>СТЕКЛО</p></div>
+            </div>
+            <div class="brick">
+                <div class="brick_text"><p>КИРПИЧ</p></div>
+            </div>
+            <div class="sand">
+                <div class="sand_text"><p>ПЕСОК</p></div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="block_5">
+            <div class="zag_4">
+              (4) <br>
+              ФИНАЛ</div>
+            <div class="block_5_2">
+            <div class="zona">
+             <img src="./images/zona_1.svg" class="zona1"/>
+              <img src="./images/zona_2.svg" class="zona2"/>
+              <img src="./images/zona_3.svg" class="zona3"/>
+            </div></div>
+            <div class="draggable" id="rect1"></div>
+            <div class="draggable" id="rect2"></div>
+            <div class="draggable" id="rect3"></div>
+            <div class="draggable" id="rect4"></div>
+            <div class="draggable" id="rect5"></div>
+            <div class="draggable" id="rect6"></div>
+            <div class="draggable" id="rect7"></div>
+            <div class="draggable" id="rect8"></div>
+            <div class="draggable" id="rect9"></div>
+            <div class="draggable" id="rect10"></div>
+
+            <div class="draggable" id="square1"></div>
+            <div class="draggable" id="square2"></div>
+            <div class="draggable" id="square3"></div>
+            <div class="draggable" id="square4"></div>
+            <div class="draggable" id="square5"></div>
+            <div class="draggable" id="square6"></div>
+            <div class="draggable" id="square7"></div>
+            <div class="draggable" id="square8"></div>
+            <div class="draggable" id="square9"></div>
+            <div class="draggable" id="square10"></div>
+            <div class="text_block4">
+              <div class="text-15">
+                построй свой дом <br>
+                мечты вместе с нами!<br>
+                просто начни собирать <br>
+                блоки вместе
+              </div>
+              <div class="text-15">
+                +79199802616<br>
+                bild@yandex.ru
+              </div>
+            </div>
+        
+    </section>
+    <section class="block_6">
+        <div class="fifth_text1">МАРИНА УСТИНОВСКАЯ</div>
+        <div class="fifth_text2">ЯРОСЛАВ СУББОТИН</div>
+        <div class="fifth_text3">Б23ДЗ10</div>
+        <div class="dashed_table1"></div>
+        <div class="dashed_table2"></div>
+        <div class="fifth_text4">4X4M</div></div>
+        <div class="strelka1"><img src="images/strela_1.svg" alt="" id="strelka_1"></div>
+        <div class="strelka2"><img src="images/strela_2.svg" alt="" id="strelka_2"></div>
+    </section>
+</body>
+
+<script>
+</script>
+</html>

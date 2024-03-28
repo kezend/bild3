@@ -1,0 +1,60 @@
+@media (max-width: 1920px){
+
+}
+
+@media (max-width: 1440px){
+
+}
+
+@media (max-width: 1366px){
+    .blackpaint{
+        margin-left: 35.8vw;
+        margin-top: -39vw;
+      }
+    #transparent_img{
+        width: 42.1vw;
+      }
+    .black_square_1{
+        width: 28.4vw;
+        margin-top: -0.7vw;
+    }
+
+}
+
+@media (min-width: 1024px){
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .zag_3{
+        margin-top: -22vw;
+    }
+    .materials{
+        display: flex;
+        flex-direction: column;
+        gap: 7vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .iron, .concrete, .glass, .brick, .sand{
+        display: grid;
+        max-width: 70vw;
+        grid-template-columns: repeat(10, 7vw);
+        grid-template-rows: repeat(14, 1vw);
+        border: #111111 solid 0.2vw;
+        margin-top: -5vw;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    .iron_text, .concrete_text, .glass_text, .brick_text, .sand_text{
+        font-size: 2vw;
+      }
+}
+
+@media (max-width: 414px){
+
+}
+
+@media (max-width: 360px){
+
+}
